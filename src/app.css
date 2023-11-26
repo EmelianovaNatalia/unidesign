@@ -1,19 +1,19 @@
-@font-face{
+@font-face {
     font-family: "Poppins-Regular";
     src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
 }
 
-@font-face{
+@font-face {
     font-family: "Poppins-Bold";
     src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
 }
 
-@font-face{
+@font-face {
     font-family: "Jost-Bold";
     src: url("../assets/fonts/Jost/Jost-Bold.ttf");
 }
 
-@font-face{
+@font-face {
     font-family: "Jost-Regular";
     src: url("../assets/fonts/Jost/Jost-Regular.ttf");
 }
