@@ -1,0 +1,126 @@
+@font-face{
+    font-family: "Poppins-Regular";
+    src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Poppins-Bold";
+    src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face{
+    font-family: "Jost-Bold";
+    src: url("../assets/fonts/Jost/Jost-Bold.ttf");
+}
+
+@font-face{
+    font-family: "Jost-Regular";
+    src: url("../assets/fonts/Jost/Jost-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins-Regular" sans-serif;
+    font-size: 18px;
+}
+:root {
+    --teme1: rgba(67, 186, 253, 0.06);
+    --teme2: #ffd69633;
+    --teme3: rgba(256, 214, 150, 0.20);
+}
+
+a {
+    text-decoration: none;
+    color: #686565;
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    color: #0E0578;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 25px;
+    padding: 0 30px;
+}
+
+.menu {
+    display: flex;
+    margin: 0 30px;
+    color: #686565;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.menu-item {
+    list-style: none;
+    padding: 38px;
+}
+
+.main-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.front-part {
+    margin: 100px;
+    columns: 1;
+    text-align: left;
+    margin: 50px;
+}
+
+.front-part-text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 50px;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--teme1);
+}
+
+.front-part-button-blue,
+.front-part-button-transporent {
+    width: 246px;
+    height: 72px;
+    top: 716px;
+    left: 77px;
+    border-radius: 10px;
+    background: #2000E7;
+
+}
+
+.final {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 30px;
+    margin: 30px;
+    flex-shrink: 0;
+}
+
+.final a img {
+    width: 20px;
+    height: 20px;
+}
